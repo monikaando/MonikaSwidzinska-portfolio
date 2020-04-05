@@ -4,7 +4,8 @@ body {
 .hero{
   display: flex;
   justify-content: space-between;
-  background-image: url('/programming.jpg');
+  flex-direction: column;
+  background-image: url('https://res.cloudinary.com/mokaweb/image/upload/v1586103941/MokaWeb-images/MokaWeb_cover.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
