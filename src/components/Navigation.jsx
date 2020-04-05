@@ -4,8 +4,8 @@ import "./Navigation.scss"
 
 const Navigation = () => {
     return (
-        <div className="navigation">     
-        <ul>
+        <div className="navigation stroke">     
+        <ul>    
             <li><NavLink to ="/">Home</NavLink></li>
             <li><NavLink to ="/">CV</NavLink></li>
             <li><NavLink to ="/">Projects</NavLink></li>
