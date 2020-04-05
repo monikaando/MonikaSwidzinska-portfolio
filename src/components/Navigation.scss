@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+li {
+ list-style-type: none;
+ margin: 0 5%;
+ font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(228, 227, 227);
+  font-weight: 500;
+}

@@ -1,0 +1,16 @@
+body {
+  font-size: 16px;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  background-image: url('/programming.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  margin:0;
+  padding:0;
+}
+
