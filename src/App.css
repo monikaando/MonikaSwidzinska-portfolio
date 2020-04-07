@@ -1,17 +1,6 @@
 body {
   font-size: 16px;
+  background-image: url('https://res.cloudinary.com/mokaweb/image/upload/v1586283322/MokaWeb-images/wallpaper_moka.jpg');
 }
-.hero{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-image: url('https://res.cloudinary.com/mokaweb/image/upload/v1586103941/MokaWeb-images/MokaWeb_cover.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  height: 500px;
-  margin:0;
-  padding:0;
-}
+
 

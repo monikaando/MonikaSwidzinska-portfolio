@@ -1,20 +1,15 @@
 import React from 'react';
 import './App.css';
 import Navigation from "./components/Navigation"
-import Header from "./components/Header"
-import Techstack from "./components/Techstack"
-
+import Box from "./components/Box"
 // import {Switch, Route} from 'react-router-dom';
 
 
 function App() {
   return (
     <div>
-        <div className="hero">
-            <Navigation/>
-            <Header/>
-        </div>
-           <Techstack/>
+         <Navigation/>
+         <Box/>
     </div>
   );
 }
