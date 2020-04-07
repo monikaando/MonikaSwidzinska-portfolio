@@ -10,8 +10,10 @@ const Box = () => {
               <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586288915/MokaWeb-images/MokaWeb_photo-removebg-preview_1_lneooj.png" alt="MokaWeb"/>
           </div>
           <div>
-              <h1>Monika Świdzińska</h1>
-              <h3>Front-end Developer</h3>
+            <div className="name">
+                <h1>Monika Świdzińska</h1>
+                <h2>Front-end Developer</h2>
+            </div>
               <Techstack/>
           </div>
         </div>

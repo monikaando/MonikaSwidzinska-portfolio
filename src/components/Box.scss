@@ -4,8 +4,13 @@
    overflow: hidden;
    background-color: rgba(255, 255, 255, 0.5);
    margin: 3% 15%;
-   height: 500px;
+   height: 62vh;
    border: 2px solid rgb(253,66,108);
    border-radius: 25px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name {
+    text-align: center;
+    margin-bottom: 10%;
+    color: rgb(27,27,27);
 }
