@@ -4,4 +4,6 @@ body {
   overflow: hidden;
 }
 
-
+.app {
+  margin-top: 10%;
+}
