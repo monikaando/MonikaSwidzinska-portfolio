@@ -4,28 +4,22 @@ import "./Navigation.scss"
 
 const Navigation = () => {
     return (
-        // <div className="navbar">   
-        // <div className="menu stroke">
-        //     <ul>    
-        //         <li><NavLink to ="/">Home</NavLink></li>
-        //         <li><NavLink to ="/">CV</NavLink></li>
-        //         <li><NavLink to ="/">Projects</NavLink></li>
-        //         <li><NavLink to ="/">Contact</NavLink></li>
-        //     </ul>
-        // </div>
-        // <div className="logo">
-        //         <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586104328/MokaWeb-images/Moka_Web_logo_white.png" alt="MokaWeb_logo"/>
-        // </div>  
-        // </div>
-        <div id="menu">
-  <input type="checkbox" id="menu-toggle"/>
-  <ul>
-            <li><NavLink to ="/">Home</NavLink></li>
-             <li><NavLink to ="/">CV</NavLink></li>
-             <li><NavLink to ="/">Projects</NavLink></li>
-             <li><NavLink to ="/">Contact</NavLink></li>
-  </ul>
-</div>
+        <div>
+            <input type="checkbox" id="openSidebarMenu"/>
+            <label for="openSidebarMenu" className="sidebarIconToggle">
+                <div className="spinner top"></div>
+                <div className="spinner middle"></div>
+                <div className="spinner bottom"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul className="menu">
+                <li><NavLink to ="/">Home</NavLink></li>
+                    <li><NavLink to ="/projects">Projects</NavLink></li>
+                     <li><NavLink to ="/cv">CV</NavLink></li>
+                    <li><NavLink to ="/contact">Contact</NavLink></li>
+                </ul>
+            </div>
+        </div>
     );
 }
 
