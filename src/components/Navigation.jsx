@@ -23,14 +23,14 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <NavLink to="https://www.linkedin.com/in/monikaswidzinska/">
+                        <a href="https://www.linkedin.com/in/monikaswidzinska/">
                             <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586445839/MokaWeb-images/linkedin.png" alt="Monika-Swidzinska-linkedin"/>
-                        </NavLink>
+                        </a>
                     </li>
                     <li>
-                        <NavLink to="mailto:mswidzinska87@gmail.com">
+                        <a href="mailto:mswidzinska87@gmail.com">
                             <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586445839/MokaWeb-images/email.png" alt="MokaWeb-email"/>
-                        </NavLink>
+                        </a>
                     </li>
                 </ul>
             </div>
