@@ -3,19 +3,21 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 3% 15%;
-    
-}
-.buttons div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 2px solid rgb(253,66,108);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size:1.6em;
-    font-weight: 600;
-    color: rgb(27,27,27);
+        div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 2px solid rgb(253,66,108);
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            a {
+            color: rgb(27,27,27);
+            text-decoration: none;
+            font-size:1.6em;
+            font-weight: 600; 
+            }
+        }
 }

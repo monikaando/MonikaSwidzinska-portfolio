@@ -15,7 +15,7 @@ const Navigation = () => {
                 <ul className="menu">
                 <li><NavLink to ="/">Home</NavLink></li>
                     <li><NavLink to ="/projects">Projects</NavLink></li>
-                     <li><NavLink to ="/cv">CV</NavLink></li>
+                    <li><NavLink to ="/cv">CV</NavLink></li>
                     <li><NavLink to ="/contact">Contact</NavLink></li>
                     <li>
                         <a className= "hvr-grow" href="https://github.com/mswidzinska" target="_blank" rel="noopener noreferrer">
