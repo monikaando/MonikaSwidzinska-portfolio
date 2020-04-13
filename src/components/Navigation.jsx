@@ -17,7 +17,7 @@ const Navigation = () => {
                     <li><NavLink to ="/projects">Projects</NavLink></li>
                     <li><NavLink to ="/cv">CV</NavLink></li>
                     <li><NavLink to ="/contact">Contact</NavLink></li>
-                    <li>
+                    <li className="noBorderBottom">
                         <a className= "hvr-grow" href="https://github.com/mswidzinska" target="_blank" rel="noopener noreferrer">
                              <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586780130/MokaWeb-icons/github_logo.png" alt="Monika-Swidzinska-github"/>
                         </a>

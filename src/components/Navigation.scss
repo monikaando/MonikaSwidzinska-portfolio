@@ -1,5 +1,4 @@
 #sidebarMenu {
-  height: 100%;
   position: fixed;
   left: 0;
   top: 0;
@@ -8,35 +7,38 @@
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
   background: rgb(44,44,44);
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0 ;
 }
 .menu {
   list-style: none; 
   margin:0;
   padding:0;
+  height: 100%;
+    li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+      padding: 20px 0;
+      a {
+        color: #fff;
+        display: flexbox;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px 0 20px 20px;
+        img {
+          display: flexbox;
+          flex-direction: row;
+          width:30px;
+          padding:0;
+          margin:0;
+          }
+      }
+    }
+}    
+.noBorderBottom {
+  border-bottom: none !important;
+  margin-bottom: 10px;
 }
-.menu li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-  padding: 20px 0;
-}
-.menu li a {
-  color: #fff;
-  display: flexbox;
-  flex-direction: column;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px 0 20px 20px;
-}
-
-.menu li a img {
-  display: flexbox;
-  flex-direction: row;
-  width:30px;
-  padding:0;
-  margin:0;
-  }
-
 #openSidebarMenu:checked ~ #sidebarMenu {
   transform: translateX(0);
 }
