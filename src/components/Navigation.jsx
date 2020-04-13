@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div>
             <input type="checkbox" id="openSidebarMenu"/>
-            <label for="openSidebarMenu" className="sidebarIconToggle">
+            <label htmlFor="openSidebarMenu" className="sidebarIconToggle">
                 <div className="spinner top"></div>
                 <div className="spinner middle"></div>
                 <div className="spinner bottom"></div>
@@ -18,18 +18,16 @@ const Navigation = () => {
                      <li><NavLink to ="/cv">CV</NavLink></li>
                     <li><NavLink to ="/contact">Contact</NavLink></li>
                     <li>
-                        <a href="https://github.com/mswidzinska">
-                             <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586445839/MokaWeb-images/github.png" alt="Monika-Swidzinska-github"/>
+                        <a className= "hvr-grow" href="https://github.com/mswidzinska" target="_blank" rel="noopener noreferrer">
+                             <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586780130/MokaWeb-icons/github_logo.png" alt="Monika-Swidzinska-github"/>
                         </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/monikaswidzinska/">
-                            <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586445839/MokaWeb-images/linkedin.png" alt="Monika-Swidzinska-linkedin"/>
+ 
+                        <a className= "hvr-grow" href="https://www.linkedin.com/in/monikaswidzinska/" target="_blank" rel="noopener noreferrer">
+                            <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586780038/MokaWeb-icons/linkedin.png" alt="Monika-Swidzinska-linkedin"/>
                         </a>
-                    </li>
-                    <li>
-                        <a href="mailto:mswidzinska87@gmail.com">
-                            <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586445839/MokaWeb-images/email.png" alt="MokaWeb-email"/>
+
+                        <a className= "hvr-grow" href="mailto:mswidzinska87@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <img src="https://res.cloudinary.com/mokaweb/image/upload/v1586781204/MokaWeb-icons/email.png" alt="MokaWeb-email"/>
                         </a>
                     </li>
                 </ul>
