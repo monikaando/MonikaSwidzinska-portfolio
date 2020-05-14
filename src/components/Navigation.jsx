@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import "./Navigation.scss"
+import "../styles/Navigation.scss"
 
 const Navigation = () => {
     return (
@@ -15,7 +15,7 @@ const Navigation = () => {
                 <ul className="menu">
                 <li><NavLink to ="/">Home</NavLink></li>
                     <li><NavLink to ="/projects">Projects</NavLink></li>
-                    <li><NavLink to ="/cv">CV</NavLink></li>
+                    <li><a href="https://res.cloudinary.com/mokaweb/image/upload/v1589302066/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
                     <li><NavLink to ="/contact">Contact</NavLink></li>
                     <li className="noBorderBottom">
                         <a className= "hvr-grow" href="https://github.com/mswidzinska" target="_blank" rel="noopener noreferrer">

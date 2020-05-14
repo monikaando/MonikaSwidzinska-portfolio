@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Buttons.scss"
+import "../styles/Buttons.scss"
 
 const Buttons = () => {
     return (
@@ -10,7 +10,7 @@ const Buttons = () => {
             </div>
             
             <div>
-             <Link to ="/cv">CV</Link>
+             <a href="https://res.cloudinary.com/mokaweb/image/upload/v1589302066/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
             </div>
 
             <div>

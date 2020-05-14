@@ -1,0 +1,16 @@
+.box {
+    display: flex;   
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.808);
+    margin: 0 15%;
+    border: 2px solid rgb(253,66,108);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    @media screen 
+    and (min-width: 300px)
+    and (max-width: 700px) { 
+        flex-wrap: wrap-reverse;
+        overflow:auto ;
+    }
+}

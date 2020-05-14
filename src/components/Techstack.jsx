@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Techstack.scss"
+import "../styles/Techstack.scss"
 const Techstack = () => {
     return (
         <div className="icons">

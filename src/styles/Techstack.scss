@@ -3,8 +3,8 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 5% 1% 0 1%;
-}
-.icons img {
+
+  img {
     width: 100px;
     margin-top: 2%;
     display: inline-block;
@@ -22,8 +22,8 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  .icons img:hover, .icons img:focus, .icons img:active {
+  img:hover, img:focus, img:active {
     -webkit-transform: translateY(-18px);
     transform: translateY(-18px);
   }
-  
+}
