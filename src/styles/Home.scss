@@ -1,12 +1,15 @@
-   .image {
-        display: flex;   
-        flex-direction: row;
-   }
-   .stack {
-    display: flex;   
-    flex-direction: column;
-       .name {
-        text-align: center;
-        color: rgb(27,27,27);
-    }
-   }
+.name {
+  margin-top: 5%;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  .name {
+    text-align: center;
+    color: rgb(27, 27, 27);
+  }
+}
