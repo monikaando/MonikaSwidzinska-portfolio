@@ -1,31 +1,38 @@
 import React from "react";
-import { CardDeck, Card } from "react-bootstrap";
 import "../styles/Projects.scss";
 import YouTubeVideo from "../thirdParty/YouTube";
 
 const Projects = () => {
   return (
-    <CardDeck>
-      <Card>
+    <div className="projects">
+      <h2>IronHack bootcamp projects</h2>
+      <div className="card">
         <YouTubeVideo videoId="sR6eRGJFopg" />
-        <Card.Body>
-          <Card.Title>PetSitterApp</Card.Title>
-          <Card.Text>
+        <div className="card-text">
+          <h4>PetSitterApp</h4>
+          <p>
             Application for managing a pet sitting business, includes:
-            customers, calendar, jobs, income summary. The third and the final
-            project of Ironhack bootcamp. Winner of HackShow 2/2020 in Web
-            development category.
-          </Card.Text>
-          <Card.Text>
-            Stack: React, Redux, NodeJS, MongoDB, Express, Bulma, HTML
-          </Card.Text>
-          <Card.Text>
-            The project was created in cooperation with my colleague.
-          </Card.Text>
-          <Card.Text>You can see the live version and test it here: </Card.Text>
-          <Card.Text>https://pet-sitter-app.netlify.com/</Card.Text>
-          <Card.Text>Login: test@test.com | password: qwaszx12</Card.Text>
-          <Card.Text>
+            customers, calendar, jobs, income summary.
+            <br />
+            The third and the final project of Ironhack bootcamp. Winner of
+            HackShow 2/2020 in Web development category. The project was created
+            in cooperation with my colleague.
+          </p>
+          <p>Stack: React, Redux, NodeJS, MongoDB, Express, Bulma, HTML</p>
+          <p>
+            You can see the{" "}
+            <a
+              href="https://pet-sitter-app.netlify.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              live version
+            </a>{" "}
+            and test it using:
+            <br />
+            Login: test@test.com | password: qwaszx12
+          </p>
+          <p>
             <a
               href="https://github.com/mswidzinska/PetSittingApp-client"
               target="_blank"
@@ -33,28 +40,37 @@ const Projects = () => {
             >
               Github
             </a>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Created 02/2020</small>
-        </Card.Footer>
-      </Card>
-      <Card>
+          </p>
+        </div>
+        <div className="created">
+          <p>02/2020</p>
+        </div>
+      </div>
+      <div className="card">
         <YouTubeVideo videoId="6-SdYQc_kBQ" />
-        <Card.Body>
-          <Card.Title>PlayDateApp</Card.Title>
-          <Card.Text>
-            Database of your kid's friends for tracking their availability. The
-            second Iron Hack project.
-          </Card.Text>
-          <Card.Text>Stack: HTML, JS, CSS, NodeJS, Express, MongoDB</Card.Text>
-          <Card.Text>
-            The project was created in cooperation with my colleague.
-          </Card.Text>
-          <Card.Text>You can see the live version and test it here: </Card.Text>
-          <Card.Text>http://play-date-app.herokuapp.com/</Card.Text>
-          <Card.Text>Login: test | password: qwaszx</Card.Text>
-          <Card.Text>
+        <div className="card-text">
+          <h4>PlayDateApp</h4>
+          <p>Database of your kid's friends for tracking their availability.</p>
+          <p>
+            The second Iron Hack project. The project was created in cooperation
+            with my colleague.
+          </p>
+          <p>Stack: HTML, JS, CSS, NodeJS, Express, MongoDB</p>
+          <p>
+            {" "}
+            You can see the{" "}
+            <a
+              href="http://play-date-app.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              live version
+            </a>{" "}
+            and test it using:
+            <br />
+            Login: test | password: qwaszx
+          </p>
+          <p>
             <a
               href="https://github.com/mswidzinska/PlayDateApp"
               target="_blank"
@@ -62,22 +78,35 @@ const Projects = () => {
             >
               Github
             </a>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Created 01/2020</small>
-        </Card.Footer>
-      </Card>
-      <Card>
+          </p>
+        </div>
+        <div className="created">
+          <p>01/2020</p>
+        </div>
+      </div>
+
+      <div className="card">
         <YouTubeVideo videoId="UilWfBuWXoE" />
-        <Card.Body>
-          <Card.Title>Hungry Monkey</Card.Title>
-          <Card.Text>The first Iron Hack project.</Card.Text>
-          <Card.Text>Game with collision detection</Card.Text>
-          <Card.Text>Stack: HTML, JavaScript, CSS</Card.Text>
-          <Card.Text>You can see the live version here: </Card.Text>
-          <Card.Text>https://hungry-monkey.herokuapp.com/</Card.Text>
-          <Card.Text>
+        <div className="card-text">
+          <h4>Hungry Monkey</h4>
+          <p>
+            The first Iron Hack project. Game with collision detection. Choose
+            your avatar. Collect bananas, avoid coconuts and the snake.
+          </p>
+          <p>Stack: HTML, JavaScript, CSS</p>
+          <p>
+            {" "}
+            Here, you can see the{" "}
+            <a
+              href="https://hungry-monkey.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              live version
+            </a>{" "}
+            of the game.
+          </p>
+          <p>
             <a
               href="https://github.com/mswidzinska/Hungry-Monkey"
               target="_blank"
@@ -85,13 +114,13 @@ const Projects = () => {
             >
               Github
             </a>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Created 12/2019</small>
-        </Card.Footer>
-      </Card>
-    </CardDeck>
+          </p>
+        </div>
+        <div className="created">
+          <p>12/2019</p>
+        </div>
+      </div>
+    </div>
   );
 };
 

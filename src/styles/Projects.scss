@@ -1,0 +1,28 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 15%;
+    font-size: 0.8em;
+    h2 {
+        color:white;
+        margin-bottom: 3%;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;    
+        align-items: center;   
+        border-radius: 15px; 
+        overflow: hidden;
+        .card-text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 4%;
+        }
+        .created{
+            align-self: flex-end;
+            margin: 0 2%;
+        }
+    }
+   
+}

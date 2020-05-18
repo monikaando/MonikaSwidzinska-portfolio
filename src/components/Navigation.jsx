@@ -32,7 +32,13 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <a
+              href="mailto:mswidzinska87@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
           </li>
           <li className="noBorderBottom">
             <a
