@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { CardDeck, Card } from "react-bootstrap";
 import "../styles/Projects.scss";
 import YouTubeVideo from "../thirdParty/YouTube";
@@ -37,7 +36,7 @@ const Projects = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Created 02.2020</small>
+          <small className="text-muted">Created 02/2020</small>
         </Card.Footer>
       </Card>
       <Card>
@@ -66,7 +65,7 @@ const Projects = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Created 01/2020</small>
         </Card.Footer>
       </Card>
       <Card>
@@ -89,7 +88,7 @@ const Projects = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Created 12/2019</small>
         </Card.Footer>
       </Card>
     </CardDeck>

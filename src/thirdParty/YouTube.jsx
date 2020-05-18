@@ -3,8 +3,7 @@ import YouTube from "react-youtube";
 
 class YouTubeVideo extends React.Component {
   videoOnReady(event) {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
+    event.target.stopVideo();
   }
   render() {
     const opts = {
