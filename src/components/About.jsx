@@ -23,7 +23,7 @@ const About = () => {
           <li>Git and GitHub & Version Control </li>
         </ul>
         <p>
-          During the bootcamp I've build 3 projects (you can see them in{" "}
+          During the bootcamp I've built 3 projects (you can see them in{" "}
           <Link to="/projects">projects</Link> on this website)
         </p>
         <p>
@@ -40,11 +40,12 @@ const About = () => {
           develop my knowledge.
         </p>
         <p>
-          After my course, I was hired as a Teacher Assistant by IronHack school
-          in Amsterdam for Web Development Bootcamp. After I finish classes with
-          my students, where I help them with their coding problems, questions,
-          checking and grading their exercises and projects, I am open for a new
-          challenges and new job opportunities.
+          After my course, I became a Teacher Assistant at IronHack school in
+          Amsterdam. I am working with students of Web Development Bootcamp.
+          Every day I am helping them with their coding problems, questions,
+          checking and grading their exercises and projects. The course will end
+          in the middle of July. Since then, I am open for new challenges and
+          new job opportunities.
         </p>
         <h3>Personal life</h3>
         <ul>
