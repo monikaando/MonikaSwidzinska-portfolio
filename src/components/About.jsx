@@ -1,11 +1,11 @@
 import React from "react";
-import Box from "../layout/Box";
+import Box2 from "../layout/Box2";
 import "../styles/About.scss";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <Box>
+    <Box2>
       <div className="about">
         <h3>Career</h3>
         <p>
@@ -56,7 +56,7 @@ const About = () => {
           <li>In sunny days I am admiring the Earth from Cessna 172</li>
         </ul>
       </div>
-    </Box>
+    </Box2>
   );
 };
 
