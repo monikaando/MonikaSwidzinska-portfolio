@@ -40,20 +40,20 @@ const About = () => {
           develop my knowledge.
         </p>
         <p>
-          Right now IronHack school in Amsterdam hired me as a Teacher Assistant
-          for Web Development Bootcamp. After I finish classes with my lovely
-          students, where I help them with their coding problems, questions,
+          After my course, I was hired as a Teacher Assistant by IronHack school
+          in Amsterdam for Web Development Bootcamp. After I finish classes with
+          my students, where I help them with their coding problems, questions,
           checking and grading their exercises and projects, I am open for a new
           challenges and new job opportunities.
         </p>
-        <h3>Perfonal life</h3>
+        <h3>Personal life</h3>
         <ul>
           <li>I am climbing (bouldering)</li>
           <li>I am collecting plants</li>
           <li>I am sewing</li>
           <li>I am a petsitter</li>
           <li>I am building websites for friends</li>
-          <li>In sunny days I am admiring the Earth from Cessna 172</li>
+          <li>In sunny days I am admiring the Earth from a Cessna 172</li>
         </ul>
       </div>
     </Box2>
