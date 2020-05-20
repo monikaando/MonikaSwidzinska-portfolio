@@ -3,8 +3,8 @@
     flex-direction: column;
     padding: 0.5% 15%;
     font-size: 0.8em;
-    h2 {
-        color:white;
+    h1 {
+        color:rgb(27, 27, 27);
         margin-bottom: 3%;
     }
     .card {
@@ -14,12 +14,13 @@
         align-items: center;   
         border-radius: 15px; 
         overflow: hidden;
+        background: white;
         .card-text {
             display: flex;
             flex-direction: column;
             margin-left: 4%;
         }
-        .created{
+        .created {
             align-self: flex-end;
             margin: 0 2%;
         }

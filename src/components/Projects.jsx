@@ -5,7 +5,7 @@ import YouTubeVideo from "../thirdParty/YouTube";
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>IronHack bootcamp projects</h2>
+      <h1>IronHack bootcamp projects:</h1>
       <div className="card">
         <YouTubeVideo videoId="sR6eRGJFopg" />
         <div className="card-text">

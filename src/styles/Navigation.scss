@@ -57,14 +57,16 @@ input#openSidebarMenu {
   left: 15px;
   transition: all 0.3s;
   cursor: pointer; 
+  position:fixed;
+
 }
 .spinner {
   height: 3px;
-  background-color: #fff;
+  background-color: rgb(119, 119, 119);
   transition: all 0.3s;
 }
 .spinner.middle ,
-.spinner.bottom{
+.spinner.bottom {
   margin-top: 3px;
 }
 #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
