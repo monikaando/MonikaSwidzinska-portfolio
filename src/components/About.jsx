@@ -32,8 +32,8 @@ const About = () => {
           marketing, graphic design).
         </p>
         <p>
-          After years in this field, I decided to change my carer path because I
-          discovered that coding is my true passion.
+          After years in this field, I decided to change my career path because
+          I discovered that coding is my true passion.
         </p>
         <p>
           Everyday I am learning something new, making projects, practising and
@@ -54,7 +54,7 @@ const About = () => {
           <li>I am sewing</li>
           <li>I am a petsitter</li>
           <li>I am building websites for friends</li>
-          <li>In sunny days I am admiring the Earth from a Cessna 172</li>
+          <li>On sunny days I am admiring the Earth from a Cessna 172</li>
         </ul>
       </div>
     </Box2>
