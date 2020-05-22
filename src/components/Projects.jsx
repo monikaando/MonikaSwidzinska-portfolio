@@ -120,6 +120,99 @@ const Projects = () => {
           <p>12/2019</p>
         </div>
       </div>
+      <h1>Other projects:</h1>
+      <div className="card">
+        <YouTubeVideo videoId="ASt1TVXXtIA" />
+        <div className="card-text">
+          <h4>TapApp</h4>
+          <p>
+            Application uses BreweryDB's API to search breweries by country and
+            beers by name, type and country.
+          </p>
+          <p>Stack: React, SASS, HTML </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/BreweryDB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+        <div className="created">
+          <p>05/2020</p>
+        </div>
+      </div>
+      <div className="card">
+        <YouTubeVideo videoId="ONEjL4bPJmA" />
+        <div className="card-text">
+          <h4>Blog Api</h4>
+          <p>
+            Application uses API to send form's data to the database and then
+            shows blog posts from this database.
+          </p>
+          <p>Stack: React, SASS, HTML, API </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/BlogAPI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+        <div className="created">
+          <p>04/2020</p>
+        </div>
+      </div>
+      <div className="card">
+        <YouTubeVideo videoId="WwiFXxV1ydw" />
+        <div className="card-text">
+          <h4>Iron Beers</h4>
+          <p>
+            Application uses API to show the list of beers, random beer, beer's
+            detail and allow to create a new beer.
+          </p>
+          <p>Stack: React, Bulma, HTML, API </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/lab-react-ironbeers"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+        <div className="created">
+          <p>01/2020</p>
+        </div>
+      </div>
+      <div className="card">
+        <YouTubeVideo videoId="nMWnO1S3KwU" />
+        <div className="card-text">
+          <h4>Wiki Countries</h4>
+          <p>
+            Application uses API to show the list of countries, their name,
+            capital, area and borders with another countries.
+          </p>
+          <p>Stack: React, Bootstrap, HTML, API </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/lab-wiki-countries"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+        <div className="created">
+          <p>01/2020</p>
+        </div>
+      </div>
     </div>
   );
 };
