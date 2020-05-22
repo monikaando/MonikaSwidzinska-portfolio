@@ -173,7 +173,7 @@ const Projects = () => {
           <h4>Iron Beers</h4>
           <p>
             Application uses API to show the list of beers, random beer, beer's
-            detail and allow to create a new beer.
+            details and allow to create a new beer.
           </p>
           <p>Stack: React, Bulma, HTML, API </p>
           <p>
@@ -211,6 +211,29 @@ const Projects = () => {
         </div>
         <div className="created">
           <p>01/2020</p>
+        </div>
+      </div>
+      <div className="card">
+        <YouTubeVideo videoId="u5aPGrda-c0" />
+        <div className="card-text">
+          <h4>Recipes & Cooks</h4>
+          <p>
+            Application with recipes. It is possible to see list of recipes,
+            detail page of recipe, delete, update recipes and create own recipe.
+          </p>
+          <p>Stack: NodeJS, ExpressJS, CSS, HTML </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/lab-recipes-cooks-relations"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+        <div className="created">
+          <p>12/2019</p>
         </div>
       </div>
     </div>
