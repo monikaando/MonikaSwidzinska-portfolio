@@ -4,15 +4,17 @@
 .image {
   display: flex;
   flex-direction: row;
-
-@media screen 
-and (max-width: 1350px) { 
-   display:none;
-}
+  @media screen 
+  and (min-width: 300px)
+  and (max-width: 950px) {
+  display:none;
+  }
 }
 .stack {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom:2%;
   .name {
     text-align: center;
     color: rgb(27, 27, 27);
