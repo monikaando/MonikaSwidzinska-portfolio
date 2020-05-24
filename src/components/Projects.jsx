@@ -137,7 +137,15 @@ const Projects = () => {
             <h4>Soraya Schultz - Mindset Coach Utrecht</h4>
             <p>Website built with Wordpress and Ultra Themify template.</p>
             <p>Stack: Wordpress, CSS, HTML </p>
-            <p></p>
+            <p>
+              <a
+                href="https://sorayaschultz.nl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                sorayaschultz.nl
+              </a>
+            </p>
           </div>
         </div>
         <div className="created">
