@@ -25,6 +25,12 @@
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    @media screen 
+    and (min-width: 300px)
+    and (max-width: 900px) {
+      width:80px;
+      height: 80px;
+    }
   }
   img:hover, img:focus, img:active {
     -webkit-transform: translateY(-18px);
