@@ -4,6 +4,11 @@
 .image {
   display: flex;
   flex-direction: row;
+
+@media screen 
+and (max-width: 1350px) { 
+   display:none;
+}
 }
 .stack {
   display: flex;
