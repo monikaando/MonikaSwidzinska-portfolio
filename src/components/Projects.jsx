@@ -18,7 +18,9 @@ const Projects = () => {
             HackShow 2/2020 in Web development category. The project was created
             in cooperation with my colleague.
           </p>
-          <p>Stack: React, Redux, NodeJS, MongoDB, Express, Bulma, HTML</p>
+          <p>
+            <b>Stack:</b> React, Redux, NodeJS, MongoDB, Express, Bulma, HTML
+          </p>
           <p>
             You can see the{" "}
             <a
@@ -52,7 +54,9 @@ const Projects = () => {
             The second Iron Hack project. The project was created in cooperation
             with my colleague.
           </p>
-          <p>Stack: HTML, JS, CSS, NodeJS, Express, MongoDB</p>
+          <p>
+            <b>Stack:</b> HTML, JS, CSS, NodeJS, Express, MongoDB
+          </p>
           <p>
             {" "}
             You can see the{" "}
@@ -86,7 +90,9 @@ const Projects = () => {
             The first Iron Hack project. Game with collision detection. Choose
             your avatar. Collect bananas, avoid coconuts and the snake.
           </p>
-          <p>Stack: HTML, JavaScript, CSS</p>
+          <p>
+            <b>Stack:</b> HTML, JavaScript, CSS
+          </p>
           <p>
             {" "}
             Here, you can see the{" "}
@@ -116,7 +122,9 @@ const Projects = () => {
         <div className="card-text">
           <h4>Soraya Schultz - Mindset Coach Utrecht</h4>
           <p>Website built with Wordpress and Ultra Themify template.</p>
-          <p>Stack: Wordpress, CSS, HTML </p>
+          <p>
+            <b>Stack:</b> Wordpress, CSS, HTML{" "}
+          </p>
           <p>
             <a
               href="https://sorayaschultz.nl/"
@@ -136,7 +144,9 @@ const Projects = () => {
             Application uses BreweryDB's API to search breweries by country and
             beers by name, type and country.
           </p>
-          <p>Stack: React, SASS, HTML </p>
+          <p>
+            <b>Stack:</b> React, SASS, HTML{" "}
+          </p>
           <p>
             <a
               href="https://github.com/mswidzinska/BreweryDB"
@@ -156,7 +166,9 @@ const Projects = () => {
             Application uses API to send form's data to the database and then
             shows blog posts from this database.
           </p>
-          <p>Stack: React, SASS, HTML, API </p>
+          <p>
+            <b>Stack:</b> React, SASS, HTML, API{" "}
+          </p>
           <p>
             <a
               href="https://github.com/mswidzinska/BlogAPI"
@@ -176,7 +188,9 @@ const Projects = () => {
             Application uses API to show the list of beers, random beer, beer's
             details and allow to create a new beer.
           </p>
-          <p>Stack: React, Bulma, HTML, API </p>
+          <p>
+            <b>Stack:</b> React, Bulma, HTML, API{" "}
+          </p>
           <p>
             <a
               href="https://github.com/mswidzinska/lab-react-ironbeers"
@@ -196,7 +210,9 @@ const Projects = () => {
             Application uses API to show the list of countries, their name,
             capital, area and borders with another countries.
           </p>
-          <p>Stack: React, Bootstrap, HTML, API </p>
+          <p>
+            <b>Stack:</b> React, Bootstrap, HTML, API{" "}
+          </p>
           <p>
             <a
               href="https://github.com/mswidzinska/lab-wiki-countries"
@@ -216,7 +232,9 @@ const Projects = () => {
             Application with recipes. It is possible to see list of recipes,
             detail page of recipe, delete, update recipes and create own recipe.
           </p>
-          <p>Stack: NodeJS, ExpressJS, CSS, HTML </p>
+          <p>
+            <b>Stack:</b> NodeJS, ExpressJS, CSS, HTML{" "}
+          </p>
           <p>
             <a
               href="https://github.com/mswidzinska/lab-recipes-cooks-relations"
