@@ -1,9 +1,7 @@
 html {
   margin:0;
   padding:0;
-  background: url('https://res.cloudinary.com/mokaweb/image/upload/v1589980457/MokaWeb-images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 body {
   font-size: 16px;
@@ -14,6 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://res.cloudinary.com/mokaweb/image/upload/v1589980457/MokaWeb-images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 code {
