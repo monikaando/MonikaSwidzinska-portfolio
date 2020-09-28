@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 3% 15%;
+    margin: 3% 0;
     @media screen 
     and (max-width: 655px) {
         margin: 3% 2% 7% 2%;
@@ -42,8 +42,8 @@
                align-items: center;
                justify-content: center;
                text-align: center;
-               width: 210px;
-               height: 50px;
+               width: 280px;
+               height: 60px;
                color: rgb(27,27,27);
                text-decoration: none;
                font-size:1.6em;
@@ -75,7 +75,7 @@
             }
         }
         div:hover {
-            background-color: #D64161FF;
+            background-color: #b92b49;
         }
         a:hover {
             color: rgb(255, 255, 255);

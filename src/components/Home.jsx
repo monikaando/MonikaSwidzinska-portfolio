@@ -8,8 +8,8 @@ const Home = () => {
     <Box1>
       <div className="image">
         <img
-          src="https://res.cloudinary.com/mokaweb/image/upload/v1586288915/MokaWeb-images/MokaWeb_photo-removebg-preview_1_lneooj.png"
-          alt="MokaWeb"
+          src="https://res.cloudinary.com/mokaweb/image/upload/v1601310936/MokaWeb-images/Monika_Swidzinska.png"
+          alt="Monika-Swidzinska"
         />
       </div>
       <div className="stack">

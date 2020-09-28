@@ -11,6 +11,10 @@
   and (max-width: 950px) {
   display:none;
   }
+  img{
+  object-fit: cover;
+  max-height: 700px;
+  }
 }
 .stack {
   display: flex;
