@@ -13,7 +13,7 @@ const Buttons = () => {
       </div>
       <div>
         <a
-          href="https://res.cloudinary.com/mokaweb/image/upload/v1601313930/MokaWeb-CV/Monika_Swidzinska-Front_End_Developer_CV.pdf"
+          href="https://res.cloudinary.com/mokaweb/image/upload/v1601374352/MokaWeb-CV/CV-Monika_Swidzinska_Front_End_Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
