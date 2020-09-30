@@ -4,8 +4,8 @@ import Buttons from "../components/Buttons";
 
 const Box1 = (props) => {
   return (
-    <div>
-      <div className="box1">{props.children}</div>
+    <div className="container-fluid">
+      <div className="box1 row">{props.children}</div>
       <Buttons />
     </div>
   );

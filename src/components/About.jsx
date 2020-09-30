@@ -10,7 +10,10 @@ const About = () => {
         <h3>Career</h3>
         <p>
           I am alumni of Web Development{" "}
-          <a href="https://www.ironhack.com/en/web-development/amsterdam">
+          <a href="https://www.ironhack.com/en/web-development/amsterdam"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             Ironhack
           </a>{" "}
           Bootcamp in Amsterdam , where in 9 weeks I learned:

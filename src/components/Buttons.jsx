@@ -4,14 +4,14 @@ import "../styles/Buttons.scss";
 
 const Buttons = () => {
   return (
-    <div className="buttons">
-      <div>
+    <div className="buttons row">
+      <div className="col-12 col-md-3">
         <Link to="/projects">Projects</Link>
       </div>
-      <div>
+      <div className="col-12 col-md-3">
         <Link to="/about">About</Link>
       </div>
-      <div>
+      <div className="col-12 col-md-3">
         <a
           href="https://res.cloudinary.com/mokaweb/image/upload/v1601393138/MokaWeb-CV/Monika_Swidzinska-CV_Front_End_Developer.pdf"
           target="_blank"
@@ -20,8 +20,7 @@ const Buttons = () => {
           CV
         </a>
       </div>
-
-      <div>
+      <div className="col-12 col-md-3">
         <a
           href="mailto:mswidzinska87@gmail.com"
           target="_blank"
