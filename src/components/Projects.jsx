@@ -5,6 +5,73 @@ import YouTubeVideo from "../thirdParty/YouTube";
 const Projects = () => {
   return (
     <div className="projects">
+      <h1>My latest projects:</h1>
+      <div className="card">
+        <YouTubeVideo videoId="FQYy_yPY5Y4" />
+        <div className="card-text">
+          <h4>FizzyBuzz Game - Mobile App - IONIC</h4>
+          <p>
+            FizzyBuzz Game as a Mobile App (based on Fizz Buzz Game as a responsive website).
+          </p>
+          <p>
+            <b>Stack:</b> IONIC, Angular, TypeScript, RxJS, SASS, HTML
+          </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/FizzBuzz-MobileGame-IONIC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+      </div>
+
+
+      <div className="card">
+        <YouTubeVideo videoId="ceyOipgvLQ8" />
+        <div className="card-text">
+          <h4>Fizz Buzz Game - Angular</h4>
+          <p>
+            Fizz Buzz Game as a responsive website.
+          </p>
+          <p>
+            <b>Stack:</b> Angular, TypeScript, RxJS, SASS, HTML
+          </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/FizzBuzz-DesktopGame/tree/block2_part2_monika/FizzBuzzGame"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="card">
+        <YouTubeVideo videoId="lrjsvRbPDzM" />
+        <div className="card-text">
+          <h4>BeerApp - Angular</h4>
+          <p>
+            Application uses BreweryDB's API to search breweries by country and name and
+            to search beers by name, type and country.
+          </p>
+          <p>
+            <b>Stack:</b> Angular, TypeScript, NodeJS, SASS, HTML
+          </p>
+          <p>
+            <a
+              href="https://github.com/mswidzinska/BeerApp-Angular"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </p>
+        </div>
+      </div>
       <h1>IronHack bootcamp projects:</h1>
       <div className="card">
         <YouTubeVideo videoId="sR6eRGJFopg" />
@@ -139,7 +206,7 @@ const Projects = () => {
       <div className="card">
         <YouTubeVideo videoId="ASt1TVXXtIA" />
         <div className="card-text">
-          <h4>TapApp</h4>
+          <h4>TapApp - React</h4>
           <p>
             Application uses BreweryDB's API to search breweries by country and
             beers by name, type and country.
