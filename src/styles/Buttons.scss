@@ -69,9 +69,14 @@
                 }  
                @media screen 
                 and (min-width: 801px)
-                and (max-width: 930px) {
+                and (max-width: 950px) {
                     width: 180px;
                 }  
+                @media screen 
+                and (min-width: 951px)
+                and (max-width: 1315px) {
+                    width: 225px;
+                }
             }
         }
         div:hover {
