@@ -1,28 +1,7 @@
 .box1 {
-    display: flex;   
-    flex-direction: row;
-    justify-content: space-between;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.452);
     margin: 7% 0 0 0;
     border-radius: 25px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.01);
- 
-    @media screen 
-    and (min-width: 300px)
-    and (max-width: 1000px) {
-        margin: 15% 2% 0 2%;
-
-    }
-    @media screen 
-    and (min-width: 1001px)
-    and (max-width: 1109px) {
-        margin: 7% 4% 0 4%;
-
-    }
-    @media screen 
-    and (min-width: 1110px)
-    and (max-width: 1315px) {
-        margin: 7% 8% 0 8%;
-    }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Techstack.scss";
 const Techstack = () => {
   return (
-    <div className="icons">
+    <div className="icons col-12">
       <img
         src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/AngularJS.png"
         alt="AngularJS"

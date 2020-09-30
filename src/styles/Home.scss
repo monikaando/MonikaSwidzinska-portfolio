@@ -1,28 +1,13 @@
+img {
+  max-width: 400px;
+}
 .name {
-  h1 {
-    font-size: 3em;
-    margin: 2% 0 1% 0;
-  }
-}
-.image {
-  display: flex;
-  flex-direction: row;
-  @media screen 
-  and (max-width: 950px) {
-  display:none;
-  }
-  img{
-  object-fit: cover;
-  max-height: 550px;
-  }
-}
-.stack {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom:2%;
-  .name {
-    text-align: center;
+  align-items: center;
+  margin-top: 4%;
+  text-align: center;
+  h1 {
     color: rgb(27, 27, 27);
   }
 }
