@@ -9,47 +9,64 @@ const About = () => {
       <div className="about">
         <h3>Career</h3>
         <p>
+          I am a{" "}
+          <a
+            href="https://pxlwidgets-heroes.com/hero/monika-swidzinska/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HERO{" "}
+          </a>
+          in{" "}
+          <a
+            href="https://pxlwidgets-heroes.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PXL.Widgets Heroes
+          </a>
+          !
+        </p>
+        <p>
           I am alumni of Web Development{" "}
-          <a href="https://www.ironhack.com/en/web-development/amsterdam"
-          target="_blank"
-          rel="noopener noreferrer"
+          <a
+            href="https://www.ironhack.com/en/web-development/amsterdam"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Ironhack
           </a>{" "}
-          Bootcamp in Amsterdam , where in 9 weeks I learned:
-        </p>
-        <ul>
-          <li>HTML5, CSS3, Responsive Web Design</li>
-          <li>Bootstrap, Bulma, Sass</li>
-          <li>JavaScript, ReactJS, Express.js, NodeJS, MongoDB</li>
-          <li>object-oriented programming</li>
-          <li>Git and GitHub & Version Control </li>
-        </ul>
-        <p>
-          During the bootcamp I've built 3 projects (you can see them in{" "}
-          <Link to="/projects">projects</Link> on this website)
+          Bootcamp in Amsterdam. It was time when I did a lot of coding
+          exercises, and 3 bigger projects (you can see them in{" "}
+          <Link to="/projects">projects</Link> on this website).
         </p>
         <p>
-          Besides that, I have <b>extensive marketing knowledge</b> (SEO, e-mail
-          marketing, marketing automation, social media marketing, affiliation
-          marketing, graphic design).
+          I learned then how to work in a team. I made two projects together
+          with my colleague. One of them won the contest for the best project.
+          <br />
+          During 9 weeks of intensive course I discovered that I like coding
+          more that I thought. It was a really nice beginning of my career
+          change.
+        </p>
+
+        <p>
+          After the bootcamp I was a Teacher Assistant at IronHack school for
+          the next two groups of students. Every day I was helping them with
+          their coding problems, questions, I was checking and grading their
+          exercises, projects and I was guiding them how to wrote the most
+          proper code.
+        </p>
+        <p>
+          Besides that, I was working as a marketing specialist. I have{" "}
+          <b>extensive marketing knowledge</b> (SEO, e-mail marketing, marketing
+          automation, social media marketing, affiliation marketing, graphic
+          design).
         </p>
         <p>
           After years in this field, I decided to change my career path because
           I discovered that coding is my true passion.
         </p>
-        <p>
-          Everyday I am learning something new, making projects, practising and
-          develop my knowledge.
-        </p>
-        <p>
-          After my course, I became a Teacher Assistant at IronHack school in
-          Amsterdam. I am working with students of Web Development Bootcamp.
-          Every day I am helping them with their coding problems, questions,
-          checking and grading their exercises and projects. The course will end
-          in the middle of July. Since then, I am open for new challenges and
-          new job opportunities.
-        </p>
+        <br />
         <h3>Personal life</h3>
         <ul>
           <li>I am climbing (bouldering)</li>
@@ -59,6 +76,36 @@ const About = () => {
           <li>I am building websites for friends</li>
           <li>On sunny days I am admiring the Earth from a Cessna 172</li>
         </ul>
+        <div class="container">
+          <div class="hobby_img row d-none d-md-block">
+            <div>
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/bouldering.png"
+                alt="Monika-Swidzinska_bouldering"
+              />
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/monstera_deliciosa.png"
+                alt="Monika-Swidzinska_plants"
+              />
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546616/MokaWeb-icons/sewing-machine.png"
+                alt="Monika-Swidzinska_sewing_machine"
+              />
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/cat_dog.png"
+                alt="Monika-Swidzinska_petsitter"
+              />
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/laptop_code.png"
+                alt="Monika-Swidzinska_Front-End-Developer"
+              />
+              <img class="col-2"
+                src="https://res.cloudinary.com/mokaweb/image/upload/c_scale,w_348/v1601546052/MokaWeb-icons/Cessna172.png"
+                alt="Monika-Swidzinska_flying"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </Box2>
   );
