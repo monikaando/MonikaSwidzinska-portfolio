@@ -5,3 +5,7 @@
 .no-l-pad {
       padding-left: 0;
     }
+a {
+  text-decoration: none;
+  color: #b92b49;
+}
