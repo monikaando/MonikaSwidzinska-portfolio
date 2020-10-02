@@ -1,6 +1,11 @@
 .app {
   margin: 0 8%;
   padding: 0;
+ @media screen 
+  and (min-width: 300px) 
+  and (max-width: 1000px) {
+    margin: 15% 3%;
+  }
 }
 .no-l-pad {
   padding-left: 0;
