@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="video col-lg-4 no-l-pad mr-2 text-center">
           <YouTubeVideo videoId="FQYy_yPY5Y4" />
         </div>
-        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
+        <div className="text col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>FizzyBuzz Game - Mobile App - IONIC</h4>
           <p>
             FizzyBuzz Game as a Mobile App (based on Fizz Buzz Game as a
