@@ -1,19 +1,19 @@
 .projects {
-    margin-bottom: 5%;
-    h1 {
-        margin-top: 5%;
-        margin-bottom: 3%;
-    }
-.box {
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.801);
-  margin-bottom: 2%;
-  justify-content: flex-start;
-  overflow: hidden;
-  .video {
-    line-height: 0;
-    background-size: cover;
-    background-position: center center;
+  margin-bottom: 5%;
+  h1 {
+    margin-top: 5%;
+    margin-bottom: 3%;
   }
-}
+  .box {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.801);
+    margin-bottom: 2%;
+    justify-content: flex-start;
+    overflow: hidden;
+    .video {
+      line-height: 0;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
 }
