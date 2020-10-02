@@ -1,51 +1,19 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    padding: 0.5% 15%;
-    font-size: 0.8em;
-    @media screen 
-        and (min-width: 300px)
-        and (max-width: 505px) {
-            padding: 1% 9%;
-        }
-    @media screen 
-    and (min-width: 506px)
-    and (max-width: 1235px) {
-        padding: 1% 13%;
-    }
+    margin-bottom: 5%;
     h1 {
-        color:rgb(27, 27, 27);
+        margin-top: 5%;
         margin-bottom: 3%;
     }
-    .card {
-        display: flex;
-        flex-direction: row;
-        border-radius: 15px; 
-        background: rgba(255, 255, 255, 0.801);
-        margin-bottom: 2%; 
-        justify-content: flex-start;
-        overflow: hidden;
-        @media screen 
-        and (min-width: 300px)
-        and (max-width: 1235px) {
-            flex-direction: column;
-            margin-bottom:5%;
-            align-items: center;
-        }
-        .card-text {
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start;
-            margin-left: 4%;
-            margin-right: 2%;
-            @media screen 
-            and (min-width: 300px)
-            and (max-width: 1235px) {
-            align-self: flex-start;
-            }
-            a {
-                color:rgb(27, 27, 27);
-            }
-        }
-    }
+.box {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.801);
+  margin-bottom: 2%;
+  justify-content: flex-start;
+  overflow: hidden;
+  .video {
+    line-height: 0;
+    background-size: cover;
+    background-position: center center;
+  }
+}
 }
