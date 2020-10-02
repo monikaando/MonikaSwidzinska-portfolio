@@ -4,14 +4,17 @@ import YouTubeVideo from "../thirdParty/YouTube";
 
 const Projects = () => {
   return (
-    <div className="projects">
-      <h1>My latest projects:</h1>
-      <div className="card">
-        <YouTubeVideo videoId="FQYy_yPY5Y4" />
-        <div className="card-text">
+    <div className="projects container">
+      <h1 className="row">My latest projects:</h1>
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="FQYy_yPY5Y4" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>FizzyBuzz Game - Mobile App - IONIC</h4>
           <p>
-            FizzyBuzz Game as a Mobile App (based on Fizz Buzz Game as a responsive website).
+            FizzyBuzz Game as a Mobile App (based on Fizz Buzz Game as a
+            responsive website).
           </p>
           <p>
             <b>Stack:</b> IONIC, Angular, TypeScript, RxJS, SASS, HTML
@@ -28,14 +31,13 @@ const Projects = () => {
         </div>
       </div>
 
-
-      <div className="card">
-        <YouTubeVideo videoId="ceyOipgvLQ8" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="ceyOipgvLQ8" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Fizz Buzz Game - Angular</h4>
-          <p>
-            Fizz Buzz Game as a responsive website.
-          </p>
+          <p>Fizz Buzz Game as a responsive website.</p>
           <p>
             <b>Stack:</b> Angular, TypeScript, RxJS, SASS, HTML
           </p>
@@ -50,14 +52,18 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="lrjsvRbPDzM" />
-        <div className="card-text">
+
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="lrjsvRbPDzM" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>BeerApp - Angular</h4>
           <p>
-            Application uses BreweryDB's API to search breweries by country and name and
-            to search beers by name, type and country.
+            Application uses BreweryDB's API to search breweries by country and
+            name and to search beers by name, type and country.
           </p>
+          <p>Variation of the previous project "TapApp - React"</p>
           <p>
             <b>Stack:</b> Angular, TypeScript, NodeJS, SASS, HTML
           </p>
@@ -72,18 +78,18 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <h1>IronHack bootcamp projects:</h1>
-      <div className="card">
-        <YouTubeVideo videoId="sR6eRGJFopg" />
-        <div className="card-text">
+      <h1 className="row">IronHack bootcamp projects:</h1>
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="sR6eRGJFopg" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>PetSitterApp</h4>
           <p>
             Application for managing a pet sitting business, includes:
-            customers, calendar, jobs, income summary.
-            <br />
-            The third and the final project of Ironhack bootcamp. Winner of
-            HackShow 2/2020 in Web development category. The project was created
-            in cooperation with my colleague.
+            customers, calendar, jobs, income summary. The third and the final
+            project. Winner of HackShow 2/2020. Created together with my
+            colleague.
           </p>
           <p>
             <b>Stack:</b> React, Redux, NodeJS, MongoDB, Express, Bulma, HTML
@@ -112,14 +118,15 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="6-SdYQc_kBQ" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="6-SdYQc_kBQ" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>PlayDateApp</h4>
           <p>Database of your kid's friends for tracking their availability.</p>
           <p>
-            The second Iron Hack project. The project was created in cooperation
-            with my colleague.
+            The second Iron Hack project. Created together with my colleague.
           </p>
           <p>
             <b>Stack:</b> HTML, JS, CSS, NodeJS, Express, MongoDB
@@ -149,9 +156,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="UilWfBuWXoE" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="UilWfBuWXoE" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Hungry Monkey</h4>
           <p>
             The first Iron Hack project. Game with collision detection. Choose
@@ -183,10 +192,12 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <h1>Other projects:</h1>
-      <div className="card">
-        <YouTubeVideo videoId="wMFKSYX0prQ" />
-        <div className="card-text">
+      <h1 className="row">Other projects:</h1>
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="wMFKSYX0prQ" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Soraya Schultz - Mindset Coach Utrecht</h4>
           <p>Website built with Wordpress and Ultra Themify template.</p>
           <p>
@@ -203,9 +214,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="ASt1TVXXtIA" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="ASt1TVXXtIA" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>TapApp - React</h4>
           <p>
             Application uses BreweryDB's API to search breweries by country and
@@ -225,9 +238,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="ONEjL4bPJmA" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="ONEjL4bPJmA" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Blog Api</h4>
           <p>
             Application uses API to send form's data to the database and then
@@ -247,9 +262,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="WwiFXxV1ydw" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="WwiFXxV1ydw" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Iron Beers</h4>
           <p>
             Application uses API to show the list of beers, random beer, beer's
@@ -269,9 +286,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="nMWnO1S3KwU" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="nMWnO1S3KwU" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Wiki Countries</h4>
           <p>
             Application uses API to show the list of countries, their name,
@@ -291,9 +310,11 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div className="card">
-        <YouTubeVideo videoId="u5aPGrda-c0" />
-        <div className="card-text">
+      <div className="box row d-flex justify-content-between align-items-center">
+        <div className="video col-lg-4 no-l-pad mr-2 text-center">
+          <YouTubeVideo videoId="u5aPGrda-c0" />
+        </div>
+        <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Recipes & Cooks</h4>
           <p>
             Application with recipes. It is possible to see list of recipes,

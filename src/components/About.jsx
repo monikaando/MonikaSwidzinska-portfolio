@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <Box2>
-      <div className="about">
+    <div className="container">
+      <div className="about">  
         <h3>Career</h3>
         <p>
           I am a{" "}
@@ -67,43 +68,23 @@ const About = () => {
           I discovered that coding is my true passion.
         </p>
         <br />
-        <h3>Personal life</h3>
-        <ul>
-          <li>I am climbing (bouldering)</li>
-          <li>I am collecting plants</li>
-          <li>I am sewing</li>
-          <li>I am a petsitter</li>
-          <li>I am building websites for friends</li>
-          <li>On sunny days I am admiring the Earth from a Cessna 172</li>
-        </ul>
-        <div class="container">
-          <div class="hobby_img row d-none d-md-block">
-            <div>
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/bouldering.png"
-                alt="Monika-Swidzinska_bouldering"
-              />
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/monstera_deliciosa.png"
-                alt="Monika-Swidzinska_plants"
-              />
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546616/MokaWeb-icons/sewing-machine.png"
-                alt="Monika-Swidzinska_sewing_machine"
-              />
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/cat_dog.png"
-                alt="Monika-Swidzinska_petsitter"
-              />
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/laptop_code.png"
-                alt="Monika-Swidzinska_Front-End-Developer"
-              />
-              <img class="col-2"
-                src="https://res.cloudinary.com/mokaweb/image/upload/c_scale,w_348/v1601546052/MokaWeb-icons/Cessna172.png"
-                alt="Monika-Swidzinska_flying"
-              />
+       
+          <div className="hobby_img row">
+          <div className="col-md-6">
+            <h3>Personal life</h3>
+            <ul>
+              <li>I am climbing (bouldering)</li>
+              <li>I am collecting plants</li>
+              <li>I am sewing</li>
+              <li>I am a petsitter</li>
+              <li>I am building websites for friends</li>
+              <li>On sunny days I am admiring <br/>the Earth from a Cessna 172</li>
+            </ul>
             </div>
+            <img className="col-md-6"
+              src="https://res.cloudinary.com/mokaweb/image/upload/v1601546052/MokaWeb-icons/bouldering.png"
+              alt="Monika-Swidzinska_bouldering"
+            />
           </div>
         </div>
       </div>
