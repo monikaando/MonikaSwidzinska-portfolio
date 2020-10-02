@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <Box1>
       <div className="no-l-pad col-xl-5 d-none d-xl-block align-self-end">
-        <img
+        <img 
+          className="image-monika"
           src="https://res.cloudinary.com/mokaweb/image/upload/v1601310936/MokaWeb-images/Monika_Swidzinska.png"
           alt="Monika-Swidzinska"
         />
