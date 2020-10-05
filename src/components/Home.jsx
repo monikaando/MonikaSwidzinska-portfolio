@@ -6,19 +6,13 @@ import Box1 from "../layout/Box1";
 const Home = () => {
   return (
     <Box1>
-      <div className="no-l-pad col-xl-5 d-none d-xl-block align-self-end">
-        <img 
-          className="image-monika"
-          src="https://res.cloudinary.com/mokaweb/image/upload/v1601310936/MokaWeb-images/Monika_Swidzinska.png"
-          alt="Monika-Swidzinska"
-        />
-      </div>
-      <div className="col-xl-7">
+      <div className="col">
         <div className="name">
           <h1>Monika Świdzińska</h1>
-          <h2>Front-end Developer</h2>
+          <h5>Full Stack Developer with a focus on the <span class="badge badge-info">Front-End</span></h5> 
+          <h5>Extensive <span class="badge badge-secondary">marketing</span> experience</h5>
         </div>
-        <div className="row">
+        <div className="mb-5">
           <Techstack />
         </div>
       </div>
