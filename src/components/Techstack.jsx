@@ -3,9 +3,9 @@ import "../styles/Techstack.scss";
 const Techstack = () => {
   return (
     <div className="tech row">
-      <div className="box col-5 offset-1">
+      <div className="box col-md-5 offset-md-1 m-bottom">
         <h3>Main skills</h3>
-        <div className="icons">
+        <div className="icons pr-md-5">
           <img
             src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/AngularJS.png"
             alt="AngularJS"
@@ -40,9 +40,9 @@ const Techstack = () => {
           />
         </div>
       </div>
-      <div className="box col-5 offset-1">
+      <div className="box col-md-5 offset-md-1">
         <h3>Other skills</h3>
-        <div className="col icons">
+        <div className="col icons pr-md-5">
           <img
             src="https://res.cloudinary.com/mokaweb/image/upload/v1586101241/MokaWeb-icons/nodejs.png"
             alt="NodeJS"

@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <Box1>
       <div className="col">
-        <div className="name">
+        <div className="name mt-5">
           <h1>Monika Świdzińska</h1>
-          <h5>Full Stack Developer with a focus on the <span class="badge badge-info">Front-End</span></h5> 
-          <h5>Extensive <span class="badge badge-secondary">marketing</span> experience</h5>
+          <h5>Full Stack Developer with a focus on the <span className="badge badge-info">Front-End</span></h5> 
+          <h5>Extensive <span className="badge badge-secondary">marketing</span> experience</h5>
         </div>
         <div className="mb-5">
           <Techstack />
