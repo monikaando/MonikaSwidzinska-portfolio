@@ -1,0 +1,115 @@
+[
+    {
+        "project": {
+            "videoId": "FQYy_yPY5Y4",
+            "title": "FizzyBuzz Game - Mobile App - IONIC",
+            "description": "FizzyBuzz Game - Mobile App (based on Fizz Buzz Game as a responsive website).",
+            "stack": "IONIC, Angular, TypeScript, RxJS, SASS, HTML",
+            "stack_array": [
+                "IONIC",
+                "Angular",
+                "TypeScript",
+                "RxJS",
+                "SASS",
+                "HTML"
+            ],
+            "github": "https://github.com/mswidzinska/FizzBuzz-MobileGame-IONIC"
+        }
+    },
+    {
+        "project": {
+            "videoId": "ceyOipgvLQ8",
+            "title": "Fizz Buzz Game - Angular",
+            "description": "Fizz Buzz Game as a responsive website.",
+            "stack": "Angular, TypeScript, RxJS, SASS, HTML",
+            "stack_array": [
+                "Angular",
+                "TypeScript",
+                "RxJS",
+                "SASS",
+                "HTML"
+            ],
+            "github": "https://github.com/mswidzinska/FizzBuzz-DesktopGame/tree/block2_part2_monika/FizzBuzzGame"
+        }
+    },
+    {
+        "project": {
+            "videoId": "lrjsvRbPDzM",
+            "title": "BeerApp - Angular",
+            "description": "Application uses BreweryDB's API to search breweries by country and name and to search beers by name, type and country.",
+            "description2": "Variation of the previous project 'TapApp - React'",
+            "stack": "Angular, TypeScript, NodeJS, SASS, HTML",
+            "stack_array": [
+                "Angular",
+                "TypeScript",
+                "NodeJS",
+                "SASS",
+                "HTML"
+            ],
+            "github": "https://github.com/mswidzinska/BeerApp-Angular"
+        }
+    },
+    {
+        "project": {
+            "videoId": "sR6eRGJFopg",
+            "title": "PetSitterApp",
+            "description": "Application for managing a pet sitting business, includes: customers, calendar, jobs, income summary. The the final IronHack project. Winner of HackShow 2/2020. Created together with my colleague.",
+            "stack": "React, Redux, NodeJS, MongoDB, Express, Bulma, HTML",
+            "stack_array": [
+                "React",
+                "Redux",
+                "NodeJS",
+                "MongoDB",
+                "Express",
+                "Bulma",
+                "HTML"
+            ],
+            "live_version": {
+                "link": "https://pet-sitter-app.netlify.com/",
+                "test_login": "test@test.com",
+                "test_password": "qwaszx12"
+            },
+            "github": "https://github.com/mswidzinska/PetSittingApp-client"
+        }
+    },
+    {
+        "project": {
+            "videoId": "6-SdYQc_kBQ",
+            "title": "PlayDateApp",
+            "description": "Database of your kid's friends for tracking their availability.",
+            "description2": "Iron Hack project. Created together with my colleague.",
+            "stack": "NodeJS, Express, MongoDB, JS, CSS, HTML",
+            "stack_array": [
+                "NodeJS",
+                "Express",
+                "MongoDB",
+                "JS",
+                "CSS",
+                "HTML"
+            ],
+            "live_version": {
+                "link": "http://play-date-app.herokuapp.com/",
+                "test_login": "test",
+                "test_password": "qwaszx"
+            },
+            "github": "https://github.com/mswidzinska/PlayDateApp"
+        }
+    },
+    {
+        "project": {
+            "videoId": "UilWfBuWXoE",
+            "title": "Hungry Monkey",
+            "description": "Iron Hack project. Game with collision detection. Choose your avatar. Collect bananas, avoid coconuts and the snake.",
+            "stack": "JavaScript, CSS, HTML",
+            "stack_array": [
+                "JS",
+                "CSS",
+                "HTML"
+            ],
+            "live_version": {
+                "link": "https://hungry-monkey.herokuapp.com/"
+            },
+            "github": "https://github.com/mswidzinska/Hungry-Monkey"
+        }
+    }
+]

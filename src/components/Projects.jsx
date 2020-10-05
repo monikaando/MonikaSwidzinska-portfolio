@@ -5,7 +5,7 @@ import YouTubeVideo from "../thirdParty/YouTube";
 const Projects = () => {
   return (
     <div className="projects container">
-      <h1 className="row">My latest projects:</h1>
+      <h1 className="row">My projects:</h1>
       <div className="box row d-flex justify-content-between align-items-center">
         <div className="video col-lg-4 no-l-pad mr-2 text-center">
           <YouTubeVideo videoId="FQYy_yPY5Y4" />
@@ -78,7 +78,6 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <h1 className="row">IronHack bootcamp projects:</h1>
       <div className="box row d-flex justify-content-between align-items-center">
         <div className="video col-lg-4 no-l-pad mr-2 text-center">
           <YouTubeVideo videoId="sR6eRGJFopg" />
@@ -87,8 +86,7 @@ const Projects = () => {
           <h4>PetSitterApp</h4>
           <p>
             Application for managing a pet sitting business, includes:
-            customers, calendar, jobs, income summary. The third and the final
-            project. Winner of HackShow 2/2020. Created together with my
+            customers, calendar, jobs, income summary. The the final IronHack project. Winner of HackShow 2/2020. Created together with my
             colleague.
           </p>
           <p>
@@ -126,10 +124,10 @@ const Projects = () => {
           <h4>PlayDateApp</h4>
           <p>Database of your kid's friends for tracking their availability.</p>
           <p>
-            The second Iron Hack project. Created together with my colleague.
+            Iron Hack project. Created together with my colleague.
           </p>
           <p>
-            <b>Stack:</b> HTML, JS, CSS, NodeJS, Express, MongoDB
+            <b>Stack:</b> NodeJS, Express, MongoDB, JS, CSS, HTML
           </p>
           <p>
             {" "}
@@ -163,11 +161,11 @@ const Projects = () => {
         <div className="col-sm-11 offset-sm-1 col-lg-6 no-l-pad pr-4">
           <h4>Hungry Monkey</h4>
           <p>
-            The first Iron Hack project. Game with collision detection. Choose
+            Iron Hack project. Game with collision detection. Choose
             your avatar. Collect bananas, avoid coconuts and the snake.
           </p>
           <p>
-            <b>Stack:</b> HTML, JavaScript, CSS
+            <b>Stack:</b> JavaScript, CSS, HTML
           </p>
           <p>
             {" "}
@@ -192,7 +190,6 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <h1 className="row">Other projects:</h1>
       <div className="box row d-flex justify-content-between align-items-center">
         <div className="video col-lg-4 no-l-pad mr-2 text-center">
           <YouTubeVideo videoId="wMFKSYX0prQ" />
