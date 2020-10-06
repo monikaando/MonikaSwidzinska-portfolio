@@ -44,7 +44,8 @@
         "HTML"
       ],
       "live_version": {
-        "link": "https://pet-sitter-app.netlify.com/",
+        "link": "https://pet-sitter-app.netlify.com/"},
+      "test": {
         "login": "test@test.com",
         "password": "qwaszx12"
       },
@@ -59,7 +60,9 @@
       "stack": "NodeJS, Express, MongoDB, JS, CSS, HTML",
       "stack_array": ["NodeJS", "Express", "MongoDB", "JS", "CSS", "HTML"],
       "live_version": {
-        "link": "http://play-date-app.herokuapp.com/",
+        "link": "http://play-date-app.herokuapp.com/"
+      },
+      "test": {
         "login": "test",
         "password": "qwaszx"
       },

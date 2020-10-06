@@ -22,17 +22,17 @@ const projects = data.map((data) => {
           <Card.Text className="pb-3">
             <b>Stack:</b> {data.stack}
           </Card.Text>
-          {data.live_version.login ? (
-            <React.Fragment className="d-flex">
+          {data.test ? (
+            <div className="d-flex">
               <p>
-                <b>Login:</b> {data.live_version.login}
+                <b>Login:</b> {data.test.login}
               </p>
               <p className="ml-5">
-                <b>Password:</b> {data.live_version.password}
+                <b>Password:</b> {data.test.password}
               </p>
-            </React.Fragment>
+            </div>
           ) : null}
-          {data.live_version.link ? (
+          {data.live_version ? (
             <a
               className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
               href={data.live_version.link}
