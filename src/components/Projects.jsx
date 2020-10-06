@@ -22,25 +22,25 @@ const projects = data.map((data) => {
           <Card.Text className="pb-3">
             <b>Stack:</b> {data.stack}
           </Card.Text>
-          {data.live_version ? (
-            <React.Fragment>
-              <div className="d-flex">
-                <p>
-                  <b>Login:</b> {data.live_version.login}
-                </p>
-                <p className="ml-5">
-                  <b>Password:</b> {data.live_version.password}
-                </p>
-              </div>
-              <a
-                className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
-                href={data.live_version.link}
-                target="_blank"
-                rel=" noopener noreferrer"
-              >
-                Website
-              </a>
+          {data.live_version.login ? (
+            <React.Fragment className="d-flex">
+              <p>
+                <b>Login:</b> {data.live_version.login}
+              </p>
+              <p className="ml-5">
+                <b>Password:</b> {data.live_version.password}
+              </p>
             </React.Fragment>
+          ) : null}
+          {data.live_version ? (
+            <a
+              className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
+              href={data.live_version.link}
+              target="_blank"
+              rel=" noopener noreferrer"
+            >
+              Website
+            </a>
           ) : null}
 
           <a
@@ -59,9 +59,7 @@ const projects = data.map((data) => {
 export default class Projects extends Component {
   render() {
     return (
-      <div className="m-md-5 pl-md-5 pl-xl-0 pr-md-5 pb-md-5">
-        {projects}
-      </div>
+      <div className="m-md-5 pl-md-5 pl-xl-0 pr-md-5 pb-md-5">{projects}</div>
     );
   }
 }
