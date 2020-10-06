@@ -1,13 +1,13 @@
 .card {
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: transparent;
   background: rgba(255, 255, 255, 0.801);
   overflow: hidden !important;
   a:hover{
     text-decoration: none;
   }
-.btn {
-  border-radius: 25px !important;
+.btn-warning, .btn-info{
+  border-radius: 3px !important;
 }
   .video {
     line-height: 0;

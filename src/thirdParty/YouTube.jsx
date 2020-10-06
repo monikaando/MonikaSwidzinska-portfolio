@@ -8,7 +8,7 @@ class YouTubeVideo extends React.Component {
   render() {
     const opts = {
       width: "400px",
-      height: "280px",
+      height: "340px",
       playerVars: {
         autoplay: 1,
       },

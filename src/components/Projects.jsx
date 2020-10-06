@@ -11,7 +11,7 @@ const projects = data.map((data) => {
         <div className="video col-lg-4 no-l-pad mr-2 text-center">
           <YouTubeVideo videoId={data.videoId} />
         </div>
-        <div className="col-lg-6 ml-md-5 p-3 pr-5 pr-0">
+        <div className="col-lg-6 ml-md-5 p-3 pr-2 pr-0">
           <Card.Title>
             <b>{data.title}</b>
           </Card.Title>
