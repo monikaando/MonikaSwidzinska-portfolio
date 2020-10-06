@@ -60,7 +60,6 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="m-md-5 pl-md-5 pl-xl-0 pr-md-5 pb-md-5">
-      <h1>My projects:</h1>
         {projects}
       </div>
     );
