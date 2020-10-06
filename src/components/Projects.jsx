@@ -32,7 +32,7 @@ const projects = data.map((data) => {
               </p>
             </React.Fragment>
           ) : null}
-          {data.live_version ? (
+          {data.live_version.link ? (
             <a
               className="btn-warning pt-1 pb-1 pl-2 pr-2 mr-4"
               href={data.live_version.link}
