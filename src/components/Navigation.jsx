@@ -24,7 +24,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://res.cloudinary.com/mokaweb/image/upload/v1602144533/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_a.pdf"
+              href="https://res.cloudinary.com/mokaweb/image/upload/v1602147403/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_b.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
