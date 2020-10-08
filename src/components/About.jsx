@@ -75,7 +75,7 @@ const About = () => {
             Since I quit my Marketing job (04.2019) till I finished IronHack
             course for 3rd time (07.2020) it passed 15 months. During this
             time I created couple of amazing applications, websites, I did more
-            than 200 exericeses. During this time I learn bunch of new
+            than 200 exericeses. During this time I learn bunch of new 
             technologies (<a
           href="https://res.cloudinary.com/mokaweb/image/upload/v1602155964/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_sjstms.pdf"
           target="_blank"
@@ -119,7 +119,8 @@ const About = () => {
             <li>TypeScript</li>
             <li>RxJS</li>
             <li>BEM</li>
-            <li>Unit Testing Jasmine / Karma</li>
+            <li>Unit Testing</li>
+            <li>Jasmine / Karma</li>
             <li>GitLab</li>
             <li>Agile</li>
           </ul>
