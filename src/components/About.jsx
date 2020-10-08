@@ -34,14 +34,14 @@ const About = () => {
             I decided to start learning more by myself during commuting to the
             work, evenings and weekends. I liked it to this point that I started
             thinking about a career change. One day I quit my job as a marketing
-            specialist and I started <b>selflearning</b> at home and meanewhile studing
+            specialist and I started <b>self learning</b> at home and meanwhile studying
             I've build two Wordpress websites for a Life Coach. Learning by
             myself was challenging and difficult. I felt that I need guidance
             and someone who can verify my code.
           </p>
           <p>
-            <b>I decided to go to the coding school.</b> On the begining I was a bit
-            sceptical: "So much money, so intensive 10 week course, is that
+            <b>I decided to go to the coding school.</b> On the beginning I was a bit
+            sceptical: "So much money, so intensive 10 weeks course, is that
             worth it? Which school I should choose?" Today I can truly say that
             going to IronHack school was the best choice of my career life! I totally
             found myself there! This course was a very important step for me.
@@ -52,7 +52,7 @@ const About = () => {
             weekends (8h-14h per day).</b> I was super tired, but happy to see how
             big progress I was making. It was worth it! I was working
             independently, but also often in a team with my colleague. We
-            created two big apps together. <b>Our final app won the Ironhack
+            created two big apps together. <b>Our final app won the IronHack
             Contest (HackShow 2/2020). 🏆🏆</b>
           </p>
           <p>
@@ -74,7 +74,7 @@ const About = () => {
             Since I quit my Marketing job (04.2019) till I finished IronHack
             course for 3rd time (07.2020) it passed 15 months. During this
             time I created couple of amazing applications, websites, I did more
-            than 200 exericeses. During this time I learn bunch of new 
+            than 200 exercises. During this time I learn bunch of new 
             technologies (<a
           href="https://res.cloudinary.com/mokaweb/image/upload/v1602155964/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_sjstms.pdf"
           target="_blank"
@@ -109,7 +109,7 @@ const About = () => {
             >
               PXL.Widgets Heroes
             </a>
-            , where on the beginning I was proffessionally trained in new frameworks, libraries and tools. I can work in various teams, with experts and
+            , where on the beginning I was professionally trained in new frameworks, libraries and tools. I can work in various teams, with experts and
             I also could add new knowledge to my skills set:
           </p>
           <ul>
