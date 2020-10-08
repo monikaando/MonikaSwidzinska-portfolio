@@ -13,7 +13,7 @@ const About = () => {
           <p>
             <b>
               The story how I become a Front End Developer (2 years experience
-              already 🎉 ) <br />
+              already ) <br />
               with an extensive marketing knowledge (8 years experience).
             </b>
           </p>
@@ -54,7 +54,7 @@ const About = () => {
             big progress I was making. It was worth it! I was working
             independently, but also often in a team with my colleague. We
             created two big apps together. <b>Our final app won the Ironhack
-            Contest (HackShow 2/2020). 🏆🏆</b>
+            Contest (HackShow 2/2020).</b>
           </p>
           <p>
             During the whole course I had a big support from the school on every
