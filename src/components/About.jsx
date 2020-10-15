@@ -76,7 +76,7 @@ const About = () => {
             time I created couple of amazing applications, websites, I did more
             than 200 exercises. During this time I learn bunch of new 
             technologies (<a
-          href="https://res.cloudinary.com/mokaweb/image/upload/v1602155964/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_sjstms.pdf"
+          href="https://res.cloudinary.com/mokaweb/image/upload/v1602773369/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_hixxfl.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
