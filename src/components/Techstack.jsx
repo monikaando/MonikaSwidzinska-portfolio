@@ -64,6 +64,10 @@ const Techstack = () => {
             alt="GitLab"
           />
           <img
+            src="https://res.cloudinary.com/mokaweb/image/upload/v1602775365/MokaWeb-icons/GoJs.png"
+            alt="GoJS"
+          />
+          <img
             src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/RxJS.png"
             alt="RxJS"
           />
