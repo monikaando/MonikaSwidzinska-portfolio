@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Buttons.scss";
+import cv from "./data/cv.json";
 
 const Buttons = () => {
   return (
@@ -13,7 +14,7 @@ const Buttons = () => {
       </div>
       <div className="col-12 col-md-3">
         <a
-          href="https://res.cloudinary.com/mokaweb/image/upload/v1602773369/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_hixxfl.pdf"
+          href={cv.link}
           target="_blank"
           rel="noopener noreferrer"
         >

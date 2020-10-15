@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navigation.scss";
+import cv from "./data/cv.json";
 
 const Navigation = () => {
   return (
@@ -24,7 +25,7 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://res.cloudinary.com/mokaweb/image/upload/v1602773369/MokaWeb-CV/Monika_Swidzinska_Front_End_Developer_CV_hixxfl.pdf"
+              href={cv.link}
               target="_blank"
               rel="noopener noreferrer"
             >
