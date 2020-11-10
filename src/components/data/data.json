@@ -1,5 +1,24 @@
 [
   {
+    "id": "16",
+    "videoId": "7nGHQtX-3Nw",
+    "title": "Movie App",
+    "description": "Database of movies",
+    "stack": "React, Axios, Bootstrap, Sass, BEM, HTML",
+    "stack_array": [
+      "React",
+      "Axios",
+      "Bootstrap",
+      "SASS",
+      "BEM",
+      "HTML"
+    ],
+    "live_version": {
+      "link": "https://mswidzinska.github.io/Movie-Database-App/"
+    },
+    "github": "https://github.com/mswidzinska/Movie-Database-App"
+  },
+  {
     "id": "15",
     "videoId": "NLCn2qtxro0",
     "title": "DoGGO App",
