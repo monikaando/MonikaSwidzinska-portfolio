@@ -1,4 +1,22 @@
 [
+  [
+    {
+      "id": "17",
+      "videoId": "QlM3mzdR6RA",
+      "title": "Jokes App",
+      "description": "Application with jokes selected randomly from two different APIs",
+      "stack": "Vue.js, Axios, CSS, HTML",
+      "stack_array": [
+        "Vue.js",
+        "Axios",
+        "CSS",
+        "HTML"
+      ],
+      "live_version": {
+        "link": "https://mswidzinska.github.io/jokes"
+      },
+      "github": "https://github.com/mswidzinska/jokes"
+    },
   {
     "id": "16",
     "videoId": "7nGHQtX-3Nw",
