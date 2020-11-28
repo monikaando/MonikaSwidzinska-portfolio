@@ -12,7 +12,7 @@ class YouTubeVideo extends React.Component {
 			playerVars: {
 				autoplay: 1,
 			},
-			host: 'https://www.youtube.com',
+			host: 'http://www.youtube.com',
 		};
 		const { videoId } = this.props;
 		return <YouTube videoId={videoId} opts={opts} onReady={this.videoOnReady} />;
