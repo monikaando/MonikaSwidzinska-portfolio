@@ -11,7 +11,6 @@ class YouTubeVideo extends React.Component {
 			height: '340px',
 			playerVars: {
 				autoplay: 1,
-				origin: 'http://localhost:8100',
 			},
 		};
 		const { videoId } = this.props;
