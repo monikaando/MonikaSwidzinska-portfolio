@@ -40,7 +40,14 @@ const About = () => {
 					>
 						<strong>My GitHub:</strong> github.com/mswidzinska
 					</a>
-					<br />
+					<a
+						className="hvr-grow"
+						href="https://www.linkedin.com/in/monikaswidzinska/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<strong>LinkedIn</strong> linkedin.com/in/monikaswidzinska
+					</a>
 					<a
 						className="hvr-grow"
 						href="mailto:monika.swidzinska.dev@gmail.com"
