@@ -32,30 +32,36 @@ const About = () => {
 						<strong>Tech stack:</strong> JavaScript, Node.js, Vue.js, React.js, Responsive Web Design,
 						Bootstrap, CSS, SASS, OOP, HTML, REST APIs, Git, GiHub, MongoDB{' '}
 					</p>
-					<a
-						className="hvr-grow"
-						href="https://github.com/mswidzinska"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<strong>My GitHub:</strong> github.com/mswidzinska
-					</a>
-					<a
-						className="hvr-grow"
-						href="https://www.linkedin.com/in/monikaswidzinska/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<strong>LinkedIn</strong> linkedin.com/in/monikaswidzinska
-					</a>
-					<a
-						className="hvr-grow"
-						href="mailto:monika.swidzinska.dev@gmail.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<strong>You can reach me at:</strong> monika.swidzinska.dev@gmail.com
-					</a>
+					<div>
+						<a
+							className="hvr-grow"
+							href="https://github.com/mswidzinska"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<strong>My GitHub:</strong> github.com/mswidzinska
+						</a>
+					</div>
+					<div>
+						<a
+							className="hvr-grow"
+							href="https://www.linkedin.com/in/monikaswidzinska/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<strong>LinkedIn</strong> linkedin.com/in/monikaswidzinska
+						</a>
+					</div>
+					<div>
+						<a
+							className="hvr-grow"
+							href="mailto:monika.swidzinska.dev@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<strong>You can reach me at:</strong> monika.swidzinska.dev@gmail.com
+						</a>
+					</div>
 				</div>
 			</div>
 		</Box2>
