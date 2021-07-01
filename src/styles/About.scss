@@ -6,7 +6,17 @@
   img {
     height: 100%;
   }
-  p {
-    line-height: 1.8em;
+  p,
+  h6 {
+    line-height: 2.4em;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #b92b49;
+  }
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: none;
   }
 }

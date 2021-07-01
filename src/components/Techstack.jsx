@@ -7,24 +7,20 @@ const Techstack = () => {
 				<h3>Main skills</h3>
 				<div className="icons pr-md-5">
 					<img
-						src="https://res.cloudinary.com/mokaweb/image/upload/v1586109842/MokaWeb-icons/react_logo.png"
-						alt="React"
-					/>
-					<img
-						src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/AngularJS.png"
-						alt="AngularJS"
-					/>
-					<img
-						src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/ionic.png"
-						alt="IONIC"
+						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101241/MokaWeb-icons/javascript.png"
+						alt="JavaScript"
 					/>
 					<img
 						src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/TypeScript.png"
 						alt="TypeScript"
 					/>
 					<img
-						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101241/MokaWeb-icons/javascript.png"
-						alt="JavaScript"
+						src="https://res.cloudinary.com/mokaweb/image/upload/v1586109842/MokaWeb-icons/react_logo.png"
+						alt="React"
+					/>
+					<img
+						src="https://res.cloudinary.com/mokaweb/image/upload/v1625165955/MokaWeb-icons/vue.png"
+						alt="Vue"
 					/>
 					<img
 						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101241/MokaWeb-icons/sass.png"
@@ -37,6 +33,14 @@ const Techstack = () => {
 					<img
 						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101240/MokaWeb-icons/html5.png"
 						alt="HTML5"
+					/>
+					<img
+						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101240/MokaWeb-icons/bootstrap.png"
+						alt="Bootstrap"
+					/>
+					<img
+						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101240/MokaWeb-icons/bulma.png"
+						alt="Bulma"
 					/>
 				</div>
 			</div>
@@ -70,10 +74,6 @@ const Techstack = () => {
 					<img
 						src="https://res.cloudinary.com/mokaweb/image/upload/v1601318186/MokaWeb-icons/RxJS.png"
 						alt="RxJS"
-					/>
-					<img
-						src="https://res.cloudinary.com/mokaweb/image/upload/v1586101240/MokaWeb-icons/bootstrap.png"
-						alt="Bootstrap"
 					/>
 					{/* <img
             src="https://res.cloudinary.com/mokaweb/image/upload/v1586101240/MokaWeb-icons/bulma.png"
