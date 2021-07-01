@@ -49,7 +49,7 @@ const About = () => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<strong>LinkedIn</strong> linkedin.com/in/monikaswidzinska
+							<strong>LinkedIn:</strong> linkedin.com/in/monikaswidzinska
 						</a>
 					</div>
 					<div>
